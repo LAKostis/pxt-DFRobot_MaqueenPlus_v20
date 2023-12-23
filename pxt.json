@@ -1,12 +1,11 @@
 {
-    "name": "maqueenPlusV2",
+    "name": "maqueenPlusV2_bt_no_ws2812b",
     "version": "2.1.2",
-    "description": "This is the latest version of Maqueen Plus, a programming robot for STEAM education.",
+    "description": "This is the latest version of Maqueen Plus, a programming robot for STEAM education. This version doesn't support ws2812b but supports bluetooth",
     "license": "MIT",
     "dependencies": {
         "core": "*",
-        "ir": "github:dfrobot/pxt-dfrobot_ir#v1.0.3",
-        "ws2812b": "github:microsoft/pxt-ws2812b#v0.1.2"
+        "ir": "github:dfrobot/pxt-dfrobot_ir#v1.0.3"
     },
     "files": [
         "README.md",

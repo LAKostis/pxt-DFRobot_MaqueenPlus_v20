@@ -378,16 +378,6 @@ namespace maqueenPlusV2 {
     export function setBrightness(brightness: number) {
         _brightness = brightness;
     }
-
-    /**
-     * Turn off all RGB LEDs
-     */
-
-    //% weight=40
-    //% block="clear all RGB"
-    export function ledBlank() {
-       showColor(0)
-    }
 }
 
 
